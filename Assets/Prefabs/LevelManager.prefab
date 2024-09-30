@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &293782529330862271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6067061859770274794}
+  - component: {fileID: 8983221593768149499}
+  - component: {fileID: 260451642399718969}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6067061859770274794
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293782529330862271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 50.5, z: -30}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8983221593768149499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293782529330862271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9a948b4d6895b4e8a634d0aa9519cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &260451642399718969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293782529330862271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6c3a4f560a6b649beedc882b02cefa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TreasurePrefab: {fileID: 8717525425452991013, guid: ba885448e1bd98d45af791e70f98acf7,
+    type: 3}
+  PeeSpotPrefab: {fileID: 6287240598729904685, guid: 3d72b4ea72c5ba848ade50260fb604c7,
+    type: 3}
+  GhostEnemyPrefab: {fileID: 5620325996185630719, guid: d348829530eda0141ae773528e516814,
+    type: 3}
+  ObstecleLayer:
+    serializedVersion: 2
+    m_Bits: 704
+  _spreadRadius: 5
+  _avoidObstacleRadius: 1
+  Enemies: []
+  Treasures: []

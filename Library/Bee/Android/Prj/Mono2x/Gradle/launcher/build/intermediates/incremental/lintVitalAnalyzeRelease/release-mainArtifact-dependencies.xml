@@ -1,0 +1,21 @@
+<dependencies>
+  <compile
+      roots="E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release">
+    <dependency
+        name="E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release,__local_aars__:E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar,__local_aars__:E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release">
+    <dependency
+        name="E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\classes.jar:unspecified@jar"/>
+    <dependency
+        name="__local_aars__:E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name="E:\Game\Library\Bee\Android\Prj\Mono2x\Gradle@@:unityLibrary:mobilenotifications.androidlib::release"
+        simpleName="Gradle.unityLibrary:mobilenotifications.androidlib"/>
+  </package>
+</dependencies>
